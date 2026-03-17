@@ -1,0 +1,7 @@
+-- Q06: Show first name and last name concatenated
+--      into one column to show their full name
+
+SELECT CONCAT(first_name, ' ', last_name) AS full_name
+FROM patients;
+
+-- Result: 4530 rows returned
