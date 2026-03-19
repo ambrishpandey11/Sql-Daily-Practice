@@ -1,0 +1,8 @@
+-- Q12: Show all columns from admissions where the patient
+--      was admitted and discharged on the same day
+
+SELECT *
+FROM admissions
+WHERE admission_date = discharge_date;
+
+-- Result: 481 rows returned
